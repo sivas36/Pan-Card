@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Update Form</title>
+    <style>
+        span {
+            color: red;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse:collapse ;
+        }
+        *{
+            margin:2px 1px 2px 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:pink">
+        <div style="background-color: brown; color: white;">
+            <h5 style="text-align: center ;">Request For pan Card changes or Corrections</h5>
+            <p style="font-style:italic ;text-align: center">Field marked with<span> * </span> are mandatory</p>
+        </div>
+        <div  style="font-weight: bold;">
+            <table style="width: 100%;">
+                   <tr>
+                       <td></td>
+                       <td colspan="2">
+                           <p style="display:inline;"><span>*</span> whether he is citizen of india </p>
+                            <div style="display:inline;">
+                                <lable for="yes"  style="padding-left: 40px;">Yes</lable>
+                                <input type="radio" name="choice" id="yes">
+                                <lable for="No"  style="padding-left:20px;">No</lable>
+                                <input type="radio" name="choice" id="No">
+                            </div>
+                        </td>
+                   </tr>
+                   <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;"><span>*</span> permanent account number </p>
+                         <div style="display:inline;">
+                             <lable for="box" style="padding-left:40px;"></lable>
+                             <input type="text" id="box">
+                         </div>
+                     </td>
+                   </tr>
+                   <tr>
+                       <td>
+                        <div style="display:inline;">
+                            <lable for="boxes"></lable>
+                            <input type="checkbox" id="boxes">
+                        </div>
+                       </td>
+                       <td colspan="2">
+                        <p style="display:inline;"><span>*</span> name </p>
+                       </td>
+                   </tr>
+                   <tr>
+                    <td></td>
+                    <td colspan="2">
+                     <p style="display:inline;"> Title </p>
+                     <div style="display:inline; padding-left:20px">
+                        <lable for="boxes2">Mr</lable>
+                        <input type="radio" id="boxes2">
+                    
+                        <lable for="boxes2">Mrs</lable>
+                        <input type="radio" id="boxes2">
+            
+                        <lable for="boxes2">Mrs</lable>
+                        <input type="radio" id="boxes2">
+                     </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                    
+                     <div style="display:inline; ">
+                        <lable for="surname"  style="padding-right: 100px;">Surname</lable>
+                        <lable for="FN"  style="padding-right: 100px;">Fisrtname</lable>
+                        <lable for="MN"  style="padding-right: 100px;">Middlename</lable><br>
+                        <input type="text" style="padding-right: 5px;" id="surname" >
+                       
+                        <input type="text" style="padding-right: 5px;"  id="FN">
+                       
+                        <input type="text" style="padding-right: 5px;"  id="MN">
+                      
+                       
+                     </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p><span>*</span>Name as you would like it printed on the card</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                       <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                       <p>Details of my parents</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="1">
+                      whether mother is single parent and you wish to 
+        apply for pan by using the name of yout
+                    </td>
+                    <td colspan="1">
+                        <div style="display:inline;">
+                            <lable for="yes"  style="padding-left: 40px;">Yes</lable>
+                            <input type="radio" name="choice" id="yes">
+                            <lable for="No"  style="padding-left:20px;">No</lable>
+                            <input type="radio" name="choice" id="No">
+                        </div>
+                      </td>
+                   
+                      
+
+                </tr>
+                  
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
